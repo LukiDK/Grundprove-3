@@ -15,7 +15,6 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f4f4f4;
 }
 
 nav {
@@ -208,33 +207,99 @@ header img {
   max-width: 550px;
 }
 
-#section4 {
+#faq {
+  background-color: #f8fafc;
+}
+
+#faq .container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#faq .faq-links {
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#faq .faq-links a {
+  font-size: 2.4rem;
+  color: #1e293b;
+  background-color: #f8fafc;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+#faq .faq-answers {
+  max-width: 660px;
+}
+
+.faq-q {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.faq-item {
+  padding: 2rem;
+  border-bottom: #e2e8f0 solid 1px;
+}
+
+.faq-text {
+  max-width: 528px;
+  margin-right: 1rem;
+  display: none;
+}
+
+.faq-text.active {
+  display: block;
+}
+
+.faq-q h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+.faq-text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475467;
+}
+
+#section3 {
   max-width: 1320px;
   margin: 0 auto;
   padding: 5rem 2rem;
 }
 
-#section4 h2 {
+#section3 h2 {
   font-size: 4.4rem;
   font-weight: 700;
   margin-bottom: 3rem;
   text-align: center;
 }
 
-#section4 .container {
+#section3 .container {
   background-color: var(--orange);
   padding: 6.1rem;
   border-radius: 30px;
 }
 
-#section4 .line-container {
+#section3 .line-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
-#section4 .line {
+#section3 .line {
   display: inline-block;
   width: 120px; /* Set a specific width for the lines */
   height: 2px;
@@ -243,13 +308,13 @@ header img {
   border-radius: 100px;
 }
 
-#section4 .text {
+#section3 .text {
   color: white; /* Color of the text */
   font-weight: bold; /* Make the text bold */
   font-size: 24px; /* Size of the text */
 }
 
-#section4 .quote {
+#section3 .quote {
   text-align: center;
   font-size: 3.2rem;
   font-weight: 700;
