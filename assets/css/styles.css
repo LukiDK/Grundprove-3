@@ -207,3 +207,115 @@ header img {
 .ai-img {
   max-width: 550px;
 }
+
+#section4 {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+#section4 h2 {
+  font-size: 4.4rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+#section4 .container {
+  background-color: var(--orange);
+  padding: 6.1rem;
+  border-radius: 30px;
+}
+
+#section4 .line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#section4 .line {
+  display: inline-block;
+  width: 120px; /* Set a specific width for the lines */
+  height: 2px;
+  background-color: white; /* Color of the lines */
+  margin: 0 10px; /* Space around the text */
+  border-radius: 100px;
+}
+
+#section4 .text {
+  color: white; /* Color of the text */
+  font-weight: bold; /* Make the text bold */
+  font-size: 24px; /* Size of the text */
+}
+
+#section4 .quote {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: white;
+}
+
+footer {
+  background-color: #fafafa;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+.footer-left {
+  max-width: 500px;
+}
+
+.footer-left h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 2.6rem;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer-item i {
+  font-size: 1.6rem;
+}
+
+.footer-item p {
+  font-size: 1.7rem;
+}
+
+.footer-right p {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.footer-right .socials {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.footer-right .socials a {
+  text-decoration: none;
+}
+
+.footer-right .socials i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: var(--orange);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
