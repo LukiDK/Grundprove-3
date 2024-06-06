@@ -20,20 +20,27 @@ body {
 
 nav {
   color: #fff;
-  padding: 7rem 2rem;
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+nav .logo {
+  font-size: 4.4rem;
+  color: var(--orange);
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 200px;
 }
 
 nav ul {
-  max-width: 1280px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   list-style: none;
   gap: 4.5rem;
-}
-
-nav ul li:nth-child(1) {
-  margin-right: 200px;
+  margin: 0;
 }
 
 nav ul li a {
@@ -43,10 +50,44 @@ nav ul li a {
   font-weight: 500;
 }
 
-.logo {
-  font-size: 4.4rem;
-  color: var(--orange);
-  font-weight: 700;
+.burger-menu {
+  display: none;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  nav .burger-menu {
+    display: block;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    padding: 1rem 0;
+  }
+
+  nav ul.active {
+    display: flex;
+    margin-top: 3rem;
+  }
+
+  nav ul li {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  nav ul li a {
+    font-size: 2rem;
+  }
 }
 
 header {

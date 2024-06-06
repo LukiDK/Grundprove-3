@@ -7,3 +7,9 @@ arrowButtons.forEach((button) => {
     faqText.classList.toggle("active");
   });
 });
+
+let nav = document.querySelector("nav ul");
+
+function toggleNav() {
+  nav.classList.toggle("active");
+}
