@@ -50,6 +50,11 @@ nav ul li a {
   font-weight: 500;
 }
 
+nav ul li a:hover {
+  color: var(--orange);
+  transition: all 0.3s ease;
+}
+
 .burger-menu {
   display: none;
   font-size: 1.6rem;
@@ -128,6 +133,14 @@ header article li a {
   padding: 1.6rem 5rem;
   border-radius: 33px;
   color: white;
+  border: var(--orange) solid 1px;
+}
+
+header article li a:hover {
+  background-color: white;
+  color: var(--orange);
+  transition: all 0.3s ease;
+  border-color: var(--orange);
 }
 
 header img {
@@ -322,6 +335,10 @@ header img {
   margin-bottom: 1rem;
 }
 
+.faq-q i {
+  cursor: pointer;
+}
+
 .faq-item {
   padding: 2rem;
   border-bottom: #e2e8f0 solid 1px;
@@ -471,4 +488,12 @@ footer .container {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  border: var(--orange) solid 1px;
+}
+
+.footer-right .socials i:hover {
+  background-color: white;
+  color: var(--orange);
+  transition: all 0.3s ease;
+  border-color: var(--orange);
 }
